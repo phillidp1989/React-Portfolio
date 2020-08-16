@@ -7,6 +7,7 @@ import Intro from './components/Intro';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Education from './components/Education';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -24,8 +25,9 @@ function App() {
         </Route>
         <Route exact path={'/education'}>
           <Education />          
-        </Route>         
-      </Switch>      
+        </Route>                 
+      </Switch> 
+      <Footer />     
     </div>
     </Router>
   );
