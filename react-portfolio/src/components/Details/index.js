@@ -16,8 +16,9 @@ function Details() {
         <h5>
           <a
             target="_blank"
+            rel='noopener noreferrer'
             href="https://www.linkedin.com/in/daniel-phillips-65775485/"
-            >LinkedIn</a> | <a target="_blank" href="https://github.com/phillidp1989">Github</a>
+            >LinkedIn</a> | <a target="_blank" rel='noopener noreferrer' href="https://github.com/phillidp1989">Github</a>
         </h5>
         <div className="buttons m-2">
           <a

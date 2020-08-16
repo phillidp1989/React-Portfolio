@@ -1,6 +1,7 @@
 import React from 'react';
-import Navbar from './components/Navbar/index';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import './App.css';
+import Navbar from './components/Navbar/index';
 import Sidenav from './components/Sidenav';
 import Intro from './components/Intro';
 import About from './components/About';
@@ -9,14 +10,24 @@ import Education from './components/Education';
 
 function App() {
   return (
+    <Router>
     <div>
       <Navbar />
       <Sidenav />
       <Intro />
-      <About />
-      <Portfolio />
-      <Education />      
+      <Switch>
+        <Route path={'/about'}>
+          <About />
+        </Route>
+        <Route exact path={'/portfolio'}>
+          <Portfolio />          
+        </Route>
+        <Route exact path={'/education'}>
+          <Education />          
+        </Route>         
+      </Switch>      
     </div>
+    </Router>
   );
 }
 
