@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 import './style.css';
 
 function Modal(props) {      
@@ -30,11 +30,13 @@ function Modal(props) {
                 <div className="collapsible-body">
                   <a
                     target="_blank"
+                    rel='noopener noreferrer'
                     href={props.repo}
                     >Link to GitHub Repo</a><br /><br />
                   {props.deployed ? 
                   <a
                     target="_blank"
+                    rel='noopener noreferrer'
                     href={props.deployed}
                     >Link to Deployed Application</a>: 
                     null}                  
