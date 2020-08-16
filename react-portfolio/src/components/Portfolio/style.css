@@ -1,0 +1,16 @@
+#portfolio-heading {
+    background-color: #C2CAE8;
+    text-align: center;
+  }
+  
+  #portfolio-heading h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #8380B6;
+  }
+  
+  #portfolio-heading .line {
+    width: 100%;
+  }

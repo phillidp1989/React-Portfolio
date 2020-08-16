@@ -1,0 +1,42 @@
+.carousel {
+    text-align: center;
+    height: 300px;
+  }
+  
+  .carousel .carousel-item {
+    width: 150px !important;
+    height: 150px !important;
+  }
+  
+  .carousel .fas {
+    font-size: 70px;
+    padding-bottom: 20px;
+    color: black;
+  }
+  
+  .carousel h4 {
+    color: black;
+    font-size: 25px;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .carousel {
+        height: 400px;
+      }
+      .carousel .fas {
+        font-size: 130px;
+      }
+      .carousel .carousel-item {
+        padding: 0 17px;
+        width: 200px;
+        height: 200px;
+      }
+
+      .carousel-item {
+          margin: 0 10px;
+          text-align: center;
+      }
+      .carousel h4 {
+        font-size: auto;
+      }
+  }

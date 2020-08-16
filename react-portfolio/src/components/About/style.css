@@ -1,0 +1,43 @@
+#about-me-row {
+    background-color: #8380B6;
+    margin-bottom: 0 !important;
+    text-align: center;
+  }
+
+#about-me-row h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+  }
+
+  #brand-statement {
+    min-height: 450px;
+    background-position: center;
+    color: black;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  
+  #about-me {
+    margin: 0 auto;
+    text-align: center;
+    line-height: 2rem;
+    font-weight: 500;
+  }
+
+  @media only screen and (min-width: 768px) {
+    .about-me-row h1 {
+      font-size: 4.2rem;
+    }
+    #about-me {
+      width: 50%;
+    }
+  }

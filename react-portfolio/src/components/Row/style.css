@@ -1,0 +1,9 @@
+.row {
+    width: 100%;
+    border-top: 10px #45F0DF solid;
+    margin-bottom: 0 !important;
+  }
+
+  ::after {
+    content: none !important;
+  }

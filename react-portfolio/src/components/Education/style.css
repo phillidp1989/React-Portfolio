@@ -1,0 +1,31 @@
+#education-header {
+    text-align: center;
+  }
+  
+  #education-header h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 3rem;
+    font-weight: bold;
+    background-color: #8380B6;
+  }
+  
+  .educ-ex {
+    text-align: center;
+  }
+  
+  .educ-ex h4 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .educ-ex h5 {
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  .educ-ex .educ-img {
+    width: 100%;
+    height: 285px;
+    padding-top: 10px;
+  }
